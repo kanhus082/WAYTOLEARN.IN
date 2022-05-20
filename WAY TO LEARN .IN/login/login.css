@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(96, 29, 94);
+    display: flex;
+    padding: 5rem;
+}
+
+.log-in {
+    width: 50%;
+}
+
+
+.left {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+.left-content {
+
+    width: 100%;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 2rem;
+}
+
+#top-text {
+    margin-top: 0.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   padding: 2rem;
+    width: 100%;
+   
+}
+
+input[type=text] {
+    padding: 0.4rem;
+}
+
+input[type=password] {
+    padding: 0.4rem;
+}
+
+.form-label {
+    margin-top: 1rem;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   padding: 2rem;
+}
+
+
+.sign-in-section {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.sign-btn {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: rgb(236, 172, 234);
+    border: none;
+    border-radius: 5px;
+}
+
+.social-btn {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+#register {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    border-radius: 5px;
+}
+
+#register:hover {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: rgb(236, 172, 234);
+    border: none;
+    border-radius: 5px;
+}
+#social_fb{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    border-radius: 5px;
+}
+#social_fb:hover{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: rgb(4, 28, 252);
+    border: none;
+    border-radius: 5px;
+}
+#social_g{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: #fc2a05;
+    border: none;
+    border-radius: 5px;
+}
+#social_g:hover{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background-color: rgb(243, 234, 234);
+    border: none;
+    border-radius: 5px;
+}
+
+/* right */
+
+.right {
+    width: 50%;
+    background-color: rgb(236, 172, 234);
+    padding: 7rem;
+}
+
+.right-para {
+    margin-top: 1rem;
+}
+
+.right-img {
+    margin-top: 6rem;
+}

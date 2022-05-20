@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(96, 29, 94);
+  height: 85px;
+  width: 100vw;
+  color: white;
+  position: fixed;
+  z-index: 3;
+}
+.logo {
+  padding-right: 5%;
+  width: 10%;
+}
+
+.navlink {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+}
+
+.login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 12%;
+}
+
+#log_in {
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: rgb(96, 29, 94);
+}
+#log_in:hover {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(236, 172, 234);
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lottie-player-main {
+  padding-top: 100px;
+}
+/* ----------------lottie----------- */
+
+
+.final_lottie{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+}
+.left_head{
+  width: 50%;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+.right_head{
+  width: 50%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+}
