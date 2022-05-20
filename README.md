@@ -1,2 +1,3 @@
 # WAYTOLEARN.IN
 My personal Domain waytolearn.in  using (HTML,CSS,JAVASCRIPT ) . This portal basically E-learning platform &amp; also provide Internship information ....
+www.waytolearn.in
